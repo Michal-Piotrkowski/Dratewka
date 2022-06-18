@@ -1,0 +1,165 @@
+@font-face {
+    font-family: dratewkaFont;
+    src: url(../fonts/PressStart2P.ttf);
+ }
+
+ *{
+    font-family: dratewkaFont;
+ }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(36, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(36, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+
+#location_name{
+    position: absolute;
+    top: 13%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+#possible_directions{
+    position: absolute;
+    top: 20%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+#screen{
+    background-color: rgb(7, 209, 17);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 20%;
+}
+
+#terminal{
+    position: absolute;
+    top: 60%;
+    width: 20%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#see{
+    position: absolute;
+    top: 30%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+#carry{
+    position: absolute;
+    top: 70%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+#compass{
+    position: absolute;
+    width: 128px;
+    height: 60px;
+    top: 5%;
+    left: 5%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    background-image: url('../img/kompas.bmp');
+}
+
+#compass #n{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    top: 0%;
+    left:44.0%;
+}
+
+#compass #s{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    left:46%;
+    top: 83%;
+}
+
+#compass #w{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    left:5%;
+    top: 30.5%;
+}
+
+#compass #e{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    left:87.5%;
+    top: 30.5%;
+}
+
+#v{
+    display: none;
+    position: absolute;
+    color: white;
+    top: 60%;
+    width: 50%;
+    height: 3%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#g{
+    display: none;
+    position: absolute;
+    color: white;
+    top: 60%;
+    width: 50%;
+    height: 3%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#get{
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    height: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
